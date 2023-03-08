@@ -10,3 +10,7 @@ it's fast, compared to languages that have to be interepted.
 makes better use of computing resources.    
 
 This shows promise from a brand new developer in the language.
+
+compile with cl.exe /nologo /Ox /MT /W0 /GS- /DNDEBUG /I "C:\Users\rto\Downloads" faherheit_to_celsius.c /link /OUT:faherheit_to_celsius.exe /SUBSYSTEM:CONSOLE /MACHINE:x64
+
+
